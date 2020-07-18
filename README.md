@@ -1,5 +1,6 @@
 # Ubuntu18.04 Nvidia driver setup
-#우분투 버전
+# 우분투 버전
+- Ubuntu 18.04.4 LTS AMD64
 
 # 지원하는 그래픽카드 확인
 [엔비디아 공식 홈페이지](https://developer.nvidia.com/cuda-gpus)
