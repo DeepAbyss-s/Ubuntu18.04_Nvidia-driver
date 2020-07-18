@@ -11,9 +11,9 @@ else
 fi
 
 sudo ubuntu-drivers devices
-read -p "Choose the driver number from the above {ex: 440}: " input
+read -p "select your graphic's driver number from the above (ex: 440 / input number only): " input
 
-read -p "Do you want to install nvidia-driver-$input [y/n] " yn
+read -p "Are you sure to want to install nvidia-driver-$input [y/n] " yn
 case $yn in
 	[Yy]* )	sudo apt-get purge nvidia*  # delete nvidia driver.
 		sudo add-apt-repository ppa:graphics-drivers/ppa
